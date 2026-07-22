@@ -18,8 +18,6 @@
 
 ### 📫 Connect with Me
 📧 **Email**: [[pupahero@gmail.com](mailto:pupahero@gmail.com)]
-💼 **LinkedIn**: [[linkedin.com/in/bunyawat-singkiporn](https://www.linkedin.com/in/bunyawat-singkiporn-747826252/)]
-🌐 **Portfolio**: [[portfolio-bunyawat](https://portfolio-bunyawat.vercel.app/)]
 
 ⭐ **Looking for a Full Stack Developer?** Feel free to reach out! 🚀
 
