@@ -2,12 +2,6 @@
 <p align="center">
   <img src="./space-banner.svg" alt="Kittipat Thongchaom — Full Stack Developer" width="100%" />
 </p>
-
-<h1 align="center">Hi there, I'm Kittipat Thongchaom👋</h1>
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Bunyawat-Sing&label=Profile%20Views&color=blue&style=flat" alt="Profile Views" />
-</p>
-
 ### 👨‍💻 About Me
 - 💻 **Stack**: Full Stack Developer
 - 🚀 **Currently Learning**: Cybersecurity
