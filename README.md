@@ -1,6 +1,6 @@
 <!-- ⭐ Animated space banner: ดาวตก + วงโคจรดวงดาว (ตัวไฟล์ SVG อยู่ที่ ./assets/space-banner.svg) -->
 <p align="center">
-  <img src="./assets/space-banner.svg" alt="Kittipat Thongchaom — Full Stack Developer" width="100%" />
+  <img src="./space-banner.svg" alt="Kittipat Thongchaom — Full Stack Developer" width="100%" />
 </p>
 
 <h1 align="center">Hi there, I'm Kittipat Thongchaom👋</h1>
