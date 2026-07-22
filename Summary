@@ -1,0 +1,56 @@
+
+# ═══════════════════════════════════════════════════════════════
+#  การ์ดสถิติแบบไฟล์นิ่ง (ไม่มีทาง rate limit)
+#
+#  Action นี้จะสร้างการ์ดสถิติเป็นไฟล์ SVG แล้ว commit เก็บไว้ใน repo เรา
+#  README จึงดึงจากไฟล์ในโปรไฟล์เราเอง ไม่ต้องพึ่งเซิร์ฟเวอร์กลางที่ล่มบ่อย
+#
+#  ── ตั้งค่าก่อนใช้ (ทำครั้งเดียว) ──
+#  Action นี้ต้องใช้ Personal Access Token (PAT) เพราะต้องอ่านข้อมูลสถิติของคุณ
+#
+#  1) สร้าง Token:
+#     GitHub -> Settings -> Developer settings
+#     -> Personal access tokens -> Tokens (classic) -> Generate new token (classic)
+#     -> ติ๊ก scope:  repo  และ  read:user
+#     -> กด Generate -> คัดลอก token เก็บไว้ (จะเห็นครั้งเดียว)
+#
+#  2) เพิ่ม Token เข้า repo โปรไฟล์:
+#     ไปที่ repo ของคุณ -> Settings -> Secrets and variables -> Actions
+#     -> New repository secret
+#     -> Name:  SUMMARY_GITHUB_TOKEN
+#     -> Secret: วาง token ที่คัดลอกมา -> Add secret
+#
+#  ── ติดตั้งไฟล์ ──
+#  วางไฟล์นี้ที่:  .github/workflows/summary-cards.yml
+#  แล้วไปแท็บ Actions กด Run workflow ครั้งแรกเอง
+#  หลังรันเสร็จจะมีโฟลเดอร์ profile-summary-card-output โผล่ใน repo -> รูปจะขึ้น
+# ═══════════════════════════════════════════════════════════════
+
+name: GitHub Profile Summary Cards
+
+on:
+  # รันอัตโนมัติทุกวัน
+  schedule:
+    - cron: "0 0 * * *"
+  # กดรันเองได้จากแท็บ Actions
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-summary-cards
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          # branch ที่เก็บการ์ด (README เรียกจาก main)
+          BRANCH_NAME: "main"
+          # เขตเวลาไทย = UTC+7 (ใช้กับการ์ด Productive Time)
+          UTC_OFFSET: 7
