@@ -17,8 +17,6 @@
 ### 📫 Connect with Me
 📧 **Email**: [[mak0623077175@gmail.com](mailto:mak0623077175@gmail.com)]
 
-⭐ **Looking for a Full Stack Developer?** Feel free to reach out! 🚀
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Bunyawat-Sing/Bunyawat-Sing/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Bunyawat-Sing/Bunyawat-Sing/output/github-snake.svg" />
