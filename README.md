@@ -1,132 +1,107 @@
-# 🎨 ชุดเครื่องมือแต่ง GitHub Profile ให้สวย
+<!--
+  ═══════════════════════════════════════════════════════════════
+  วิธีใช้:
+  1. แทนที่ทุกคำว่า YOUR_USERNAME ด้วย username GitHub ของคุณ
+  2. แก้ชื่อ / ข้อความ / ลิงก์โซเชียล ตามใจชอบ
+  3. เปลี่ยนสีธีมได้ที่คำว่า theme=tokyonight (ใช้สีเดียวกันทั้งหน้าจะสวยสุด)
+  4. ส่วนงู 🐍 ต้องใช้คู่กับไฟล์ snake.yml ถึงจะขึ้น (ดูวิธีในไฟล์นั้น)
+  ═══════════════════════════════════════════════════════════════
+-->
 
-> วิธีใช้: แทนที่ `YOUR_USERNAME` ด้วยชื่อ GitHub ของคุณทุกที่ แล้วก๊อปโค้ดที่ชอบไปวางใน README.md
-> เปลี่ยนธีมได้ที่คำว่า `theme=` เช่น `radical`, `dracula`, `tokyonight`, `merko`, `gruvbox`, `catppuccin_mocha`
+<!-- ═════════ หัวแบนเนอร์คลื่น ═════════ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=YOUR%20NAME&fontSize=60&fontColor=ffffff&animation=fadeIn&desc=Full-Stack%20Developer&descSize=20&descAlignY=62" />
 
----
+<!-- ═════════ ตัวอักษรพิมพ์วิ่ง ═════════ -->
+<div align="center">
 
-## 1️⃣ ตัวสร้างแบบลากวาง (ไม่ต้องเขียนโค้ด)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&width=520&lines=สวัสดีครับ+ผมชื่อ+...+%F0%9F%91%8B;Full-Stack+Developer;ชอบสร้างของเจ๋งๆ+ด้วยโค้ด" alt="Typing SVG" />
 
-| เครื่องมือ | ลิงก์ | ใช้ทำอะไร |
-|---|---|---|
-| GitHub Profile README Generator | https://rahuldkjain.github.io/gh-profile-readme-generator/ | กรอกข้อมูลแล้วได้ markdown ทันที ตัวยอดนิยม |
-| readme.so | https://readme.so | เอดิเตอร์ลากวาง ทำได้ทั้งโปรไฟล์และโปรเจกต์ |
-| Profile Readme Generator | https://profile-readme-generator.com | UI สวย มีพรีวิวสด |
+</div>
 
----
+<!-- ═════════ เกี่ยวกับฉัน ═════════ -->
+## 👨‍💻 เกี่ยวกับฉัน
 
-## 2️⃣ หัวแบนเนอร์ (Header / Banner)
+- 🔭 กำลังทำโปรเจกต์เกี่ยวกับ **...**
+- 🌱 กำลังเรียนรู้ **...**
+- 👯 อยากร่วมงานกับ **...**
+- 💬 ถามผมเรื่อง **...** ได้เลย
+- ⚡ เรื่องสนุกๆ: **...**
 
-**Capsule Render** — หัวคลื่นสวยๆ 👉 https://github.com/kyechan99/capsule-render
-```markdown
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=YOUR%20NAME&fontSize=70&fontColor=ffffff)
-```
-> เปลี่ยน `type=` ได้: `waving`, `wave`, `egg`, `shark`, `slice`, `rect`, `cylinder`, `soft`
+<br>
 
-**Typing SVG** — ตัวอักษรพิมพ์วิ่ง 👉 https://github.com/DenverCoder1/readme-typing-svg
-```markdown
-![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&color=6C63FF&center=true&width=500&lines=Hello+World!;Full-Stack+Developer)
-```
+<!-- ═════════ เครื่องมือที่ถนัด ═════════ -->
+## 🛠️ Tech Stack
 
----
+<div align="center">
 
-## 3️⃣ การ์ดสถิติ (Stats Cards)
+<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,python,tailwind,git,docker,figma,mongodb,postgres&perline=6" />
 
-**GitHub Readme Stats** — ตัวที่คนใช้เยอะสุด 👉 https://github.com/anuraghazra/github-readme-stats
-```markdown
-![Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight)
-```
+</div>
 
-**Streak Stats** — วัน commit ต่อเนื่อง 👉 https://github.com/DenverCoder1/github-readme-streak-stats
-```markdown
-![Streak](https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight)
-```
+<br>
 
-**Profile Summary Cards** — การ์ดสรุปหลายใบ 👉 https://github.com/vn7n24fzkq/github-profile-summary-cards
-```markdown
-![Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=YOUR_USERNAME&theme=tokyonight)
-```
+<!-- ═════════ การ์ดสถิติ ═════════ -->
+## 📊 GitHub Stats
 
-**Metrics** — infographic ละเอียดสุด (ต้องตั้ง GitHub Action) 👉 https://github.com/lowlighter/metrics
+<div align="center">
 
-**Trophy** — ถ้วยรางวัล 👉 https://github.com/ryo-ma/github-profile-trophy
-```markdown
-![Trophy](https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&no-frame=true&column=7)
-```
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&langs_count=8&hide_border=true" />
 
----
+</div>
 
-## 4️⃣ ไอคอนและ Badge
+<!-- ═════════ วัน commit ต่อเนื่อง ═════════ -->
+<div align="center">
 
-**Skill Icons** — ไอคอน tech stack 👉 https://skillicons.dev
-```markdown
-![Skills](https://skillicons.dev/icons?i=js,ts,react,nodejs,python,git,docker,figma)
-```
+<img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" />
 
-**Shields.io** — badge สีๆ 👉 https://shields.io
-```markdown
+</div>
+
+<!-- ═════════ การ์ดสรุปโปรไฟล์ ═════════ -->
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=YOUR_USERNAME&theme=tokyonight" />
+
+</div>
+
+<!-- ═════════ ถ้วยรางวัล ═════════ -->
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" />
+
+</div>
+
+<br>
+
+<!-- ═════════ 🐍 งูกิน contribution graph (ต้องใช้กับ snake.yml) ═════════ -->
+## 🐍 Contribution Graph
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/snake.svg" alt="snake animation" />
+
+</div>
+
+<br>
+
+<!-- ═════════ ลิงก์ติดต่อ ═════════ -->
+## 🔗 ติดต่อฉัน
+
+<div align="center">
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_PROFILE)
-```
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/YOUR_PROFILE)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/YOUR_PROFILE)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
 
-**Simple Icons** — คลังไอคอน SVG ฟรีกว่า 3,000 อัน 👉 https://simpleicons.org
+</div>
 
-**ตัวนับผู้เข้าชม**
-```markdown
-![views](https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=6c63ff)
-```
+<!-- ═════════ ตัวนับผู้เข้าชม ═════════ -->
+<div align="center">
 
----
+<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat-square&color=6c63ff&label=Profile+Views" alt="views" />
 
-## 5️⃣ 🐍 งูกิน Contribution Graph (อันฮิต)
+</div>
 
-ตัวนี้ต้องตั้ง GitHub Action เพราะรูปต้อง generate ใหม่ทุกวัน 👉 https://github.com/Platane/snk
-
-**ขั้นตอน:**
-1. สร้างไฟล์ `.github/workflows/snake.yml` ใน repo โปรไฟล์
-2. วางโค้ดด้านล่าง
-3. รอ Action รันเสร็จ แล้วเอา URL รูปไปวางใน README
-
-```yaml
-name: Generate Snake
-on:
-  schedule:
-    - cron: "0 */24 * * *"
-  workflow_dispatch:
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-จากนั้นวางใน README:
-```markdown
-![snake](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/snake.svg)
-```
-
----
-
-## 6️⃣ 📚 รายการรวมของสวย (ดูตัวอย่าง / หาไอเดีย)
-
-| รายการ | ลิงก์ |
-|---|---|
-| Awesome GitHub Profile README | https://github.com/abhisheknaiidu/awesome-github-profile-readme |
-| Awesome Readme Tools | https://github.com/dhyeythumar/awesome-readme-tools |
-
----
-
-_เคล็ดลับ: ใช้ธีมสีเดียวกันทั้งหน้า (เช่น tokyonight ทุกอัน) จะทำให้โปรไฟล์ดูเป็นเอกภาพและมืออาชีพขึ้นมาก_
+<!-- ═════════ ท้ายแบนเนอร์ ═════════ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" />
