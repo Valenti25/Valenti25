@@ -3,8 +3,11 @@
   <img src="./space-banner.svg" alt="Kittipat Thongchaom — Full Stack Developer" width="100%" />
 </p>
 ### 👨‍💻 About Me
+
 - 💻 **Stack**: Full Stack Developer
+
 - 🚀 **Currently Learning**: Cybersecurity
+
 - 🎯 **Goal**: Growing into a Senior Developer to build things that bring value to the world
 
 ### 🛠️ Tech Stack
